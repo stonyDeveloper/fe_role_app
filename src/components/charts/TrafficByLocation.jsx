@@ -11,7 +11,7 @@ const TrafficByLocation = () => {
   ];
 
   return (
-    <div className=" rounded-2xl shadow-sm p-6">
+    <div className=" rounded-2xl p-6">
       <h3 className="text-lg font-medium text-gray-700 mb-4">Traffic by Location</h3>
       
       <div className="flex">
