@@ -17,6 +17,7 @@ import Customers from "./pages/customers";
 import Users from "./pages/users";
 import Settings from "./pages/settings";
 import Administration from "./pages/administration";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -105,6 +106,7 @@ function App() {
         /> 
         {/* Add more routes for other sidebar menu items */}
       </Routes>
+      <Analytics />
     </Router>
   );
 }
